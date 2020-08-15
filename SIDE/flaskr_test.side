@@ -74,11 +74,29 @@
       ],
       "value": "user1"
     }, {
-      "id": "0470ad09-e3b0-4f86-9606-bb6cc141884b",
+      "id": "750608a8-d28f-4326-8e87-3a72c0f03651",
       "comment": "",
       "command": "click",
-      "target": "css=input:nth-child(5)",
-      "targets": [],
+      "target": "xpath=//input[@value='Register']",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Log In']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b1fad1b-7bea-42b7-ac69-7b8c5c1a73c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=li > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/auth/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "f0738511-9afd-47a3-bccd-4989c4bb4854",
@@ -137,7 +155,7 @@
       "id": "0156421d-b04a-4c59-98b2-3edeb831ae1a",
       "comment": "",
       "command": "click",
-      "target": "css=input:nth-child(5)",
+      "target": "xpath=//input[@value='Log In']",
       "targets": [
         ["css=input:nth-child(5)", "css:finder"],
         ["xpath=//input[@value='Log In']", "xpath:attributes"],
