@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     sh "selenium-side-runner -s http://seleniumhub:4444/wd/hub \
-                        SIDE/ZTL_Spring_Selemium_SIDE.side -c 'browserName=chrome' \
+                        SIDE/*.side -c 'browserName=chrome' \
                         --output-directory=target/side --output-format=junit \
                         --base-url http://172.27.0.1:5000"
                 }
@@ -44,7 +44,7 @@ pipeline {
             }
             post {
                 always {
-                    perfReport filterRegex: '', sourceDataFiles: '**target/perf/*.jtl;**target/perf/*.xml'
+                    perfReport filterRegex: '', sourceDataFiles: '**/*.jtl;**/*.xml'
                 }
             }
         }
