@@ -81,20 +81,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "5c29be56-033a-4a93-982a-60b172e0d27f",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Log Out",
-      "targets": [
-        ["linkText=Log Out", "linkText"],
-        ["css=li > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
-        ["xpath=//a[contains(@href, '/auth/logout')]", "xpath:href"],
-        ["xpath=//li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
       "id": "f0738511-9afd-47a3-bccd-4989c4bb4854",
       "comment": "",
       "command": "click",
