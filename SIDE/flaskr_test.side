@@ -87,42 +87,35 @@
     }, {
       "id": "0b1fad1b-7bea-42b7-ac69-7b8c5c1a73c9",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "linkText=Log Out",
       "targets": [],
       "value": ""
     }, {
       "id": "f0738511-9afd-47a3-bccd-4989c4bb4854",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "linkText=Log In",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "eaca5cec-80d8-4f30-964c-190532abb401",
-      "comment": "",
-      "command": "//click",
-      "target": "id=username",
       "targets": [],
       "value": ""
     }, {
       "id": "6bdc1c08-2f96-4514-b51e-08f0945bf9de",
       "comment": "",
-      "command": "//type",
+      "command": "type",
       "target": "id=username",
       "targets": [],
       "value": "user1"
     }, {
       "id": "2e0e3be3-8e06-462b-b0ab-f718a107e318",
       "comment": "",
-      "command": "//type",
+      "command": "type",
       "target": "id=password",
       "targets": [],
       "value": "user1"
     }, {
       "id": "0156421d-b04a-4c59-98b2-3edeb831ae1a",
       "comment": "",
-      "command": "//click",
+      "command": "click",
       "target": "xpath=//input[@value='Log In']",
       "targets": [],
       "value": ""
