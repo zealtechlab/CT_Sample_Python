@@ -803,17 +803,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "7ff659cd-f7ca-4e52-a755-71d2380898f8",
-      "comment": "",
-      "command": "click",
-      "target": "css=.danger",
-      "targets": [
-        ["css=.danger", "css:finder"],
-        ["xpath=//input[@value='Delete']", "xpath:attributes"],
-        ["xpath=//form[2]/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "1c2a5e01-a871-4c6d-9d54-c5cce3350249",
       "comment": "",
       "command": "//assertConfirmation",
