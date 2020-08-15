@@ -191,7 +191,7 @@
       "id": "cdcfbba2-9a69-4cf1-aa75-0e1eb577e677",
       "comment": "",
       "command": "click",
-      "target": "css=input:nth-child(6)",
+      "target": "xpath=//input[@value='Save']",
       "targets": [
         ["css=input:nth-child(6)", "css:finder"],
         ["xpath=//input[@value='Save']", "xpath:attributes"],
